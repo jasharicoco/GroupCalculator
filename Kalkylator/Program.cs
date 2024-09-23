@@ -1,10 +1,16 @@
 ﻿namespace Kalkylator
-{
-    internal class Program
     {
-        static void Main(string[] args)
+    internal class Program
         {
+        static void Main(string[] args)
+            {
             Console.WriteLine("Hello, World!");
+            }
+
+
+        static int Multiplication(int a, int b)
+            {
+            return a * b;
+            }
         }
     }
-}
