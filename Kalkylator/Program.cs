@@ -4,7 +4,38 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Välkommen\n\nVad vill du göra?");
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraktion");
+            Console.WriteLine("3. Multiplikation");
+            Console.WriteLine("4. Division");
+            Console.WriteLine("5. Avsluta programmet");
+
+            bool menu = true;
+            while (menu)
+            {
+                Int32.TryParse(Console.ReadLine(), out int choice);
+
+                switch (choice)
+                {
+                    case 1:
+                        //metod för addition
+                        break;
+                    case 2:
+                        //metod för subtraktion
+                        break;
+                    case 3:
+                        //metod för multiplikation
+                        break;
+                    case 4:
+                        //metod för division
+                        break;
+                    case 5:
+                        menu = false;
+                        break;
+                    default: Console.WriteLine("Ogiltlig inmatning."); break;
+                }
+            }
         }
     }
 }
