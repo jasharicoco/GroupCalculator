@@ -36,39 +36,39 @@
                     default: Console.WriteLine("Ogiltlig inmatning."); break;
                 }
             }
-        }
 
 
-        static int Multiplication(int a, int b)
-        {
-            return a * b;
-        }
-
-        static double Division(int a, int b)
-        {
-            return a / b;
-        }
-
-        static double Division(double a, double b)
+            static int Multiplication(int a, int b)
             {
-              return a / b;
+                return a * b;
+            }
+
+            static double Division(int a, int b)
+            {
+                return a / b;
+            }
+
+            static double Division(double a, double b)
+            {
+                return a / b;
             }
 
 
-        static int Addition(int a, int b)
-        {
-            return a + b;
-        }
+            static int Addition(int a, int b)
+            {
+                return a + b;
+            }
 
-        static double SquareRoot(int a)
-        {
-            return Math.Sqrt(a);
-        }
-        
+            static double SquareRoot(int a)
+            {
+                return Math.Sqrt(a);
+            }
 
-        static int Subtraction(int a, int b)
-        {
-            return a - b;
+
+            static int Subtraction(int a, int b)
+            {
+                return a - b;
+            }
         }
     }
 }
