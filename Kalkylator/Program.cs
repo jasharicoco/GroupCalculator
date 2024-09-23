@@ -65,8 +65,7 @@
             return Math.Sqrt(a);
         }
         
-   
-        }
+
         static int Subtraction(int a, int b)
         {
             return a - b;
