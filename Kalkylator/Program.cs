@@ -11,7 +11,8 @@
             Console.WriteLine("4. Division");
             Console.WriteLine("5. Beräkna arean av en kvadrat");
             Console.WriteLine("6. Beräkna arean av en triangel");
-            Console.WriteLine("7. Avsluta programmet");
+            Console.WriteLine("7. Roten ur");
+            Console.WriteLine("8. Avsluta programmet");
 
             bool menu = true;
             while (menu)
@@ -65,6 +66,12 @@
                         menu = false;
                         break;
                     case 7:
+                        Console.WriteLine("Vilket tal vill ha ta roten ur?");
+                        double.TryParse(Console.ReadLine(), out a);
+                        Console.WriteLine(SquareRoot(a));
+                        menu = false;
+                        break;
+                    case 8:
                         menu = false;
                         break;
                     default: Console.WriteLine("Ogiltlig inmatning."); break;
@@ -97,7 +104,7 @@
                 return a + b;
                 }
 
-            static double SquareRoot(int a)
+            static double SquareRoot(double a)
                 {
                 return Math.Sqrt(a);
                 }
