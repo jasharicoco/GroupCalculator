@@ -1,9 +1,9 @@
 ﻿namespace Kalkylator
-{
-    internal class Program
     {
-        static void Main(string[] args)
+    internal class Program
         {
+        static void Main(string[] args)
+            {
             Console.WriteLine("Välkommen\n\nVad vill du göra?");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraktion");
@@ -13,11 +13,11 @@
 
             bool menu = true;
             while (menu)
-            {
+                {
                 Int32.TryParse(Console.ReadLine(), out int choice);
 
                 switch (choice)
-                {
+                    {
                     case 1:
                         //metod för addition
                         break;
@@ -34,50 +34,45 @@
                         menu = false;
                         break;
                     default: Console.WriteLine("Ogiltlig inmatning."); break;
+                    }
                 }
-            }
 
 
-            static int Multiplication(int a, int b)
-            {
+            static double Multiplication(double a, double b)
+                {
                 return a * b;
-            }
-
-            static double Division(int a, int b)
-            {
-                return a / b;
-            }
+                }
 
             static double Division(double a, double b)
-            {
+                {
                 return a / b;
-            }
+                }
 
-        static double AreaSquare(double a, double b)
-            {
-            return a * b;
-            }
+            static double AreaSquare(double a, double b)
+                {
+                return a * b;
+                }
 
-        static double AreaTriangle(double a, double b)
-            {
-            return (a * b)/2;
-            }
+            static double AreaTriangle(double a, double b)
+                {
+                return (a * b) / 2;
+                }
 
-            static int Addition(int a, int b)
-            {
+            static double Addition(double a, double b)
+                {
                 return a + b;
-            }
+                }
 
             static double SquareRoot(int a)
-            {
+                {
                 return Math.Sqrt(a);
-            }
+                }
 
 
-            static int Subtraction(int a, int b)
-            {
+            static double Subtraction(double a, double b)
+                {
                 return a - b;
+                }
             }
         }
     }
-}
