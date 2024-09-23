@@ -13,11 +13,15 @@
             return a * b;
         }
 
-
         static double Division(int a, int b)
         {
             return a / b;
         }
+
+        static double Division(double a, double b)
+            {
+              return a / b;
+            }
 
 
         static int Addition(int a, int b)
@@ -29,5 +33,12 @@
         {
             return Math.Sqrt(a);
         }
+        
+   
         }
+        static int Subtraction(int a, int b)
+        {
+            return a - b;
+        }
+    }
 }
