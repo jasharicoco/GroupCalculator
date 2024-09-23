@@ -12,11 +12,17 @@
             {
             return a * b;
             }
-        
+
+        static double Division(int a, int b)
+            {
+            return a / b;
+            }
+
+
 
         static int Addition(int a, int b)
-        {
+            {
             return a + b;
+            }
         }
     }
-}
