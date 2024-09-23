@@ -66,7 +66,7 @@
                         menu = false;
                         break;
                     case 7:
-                        Console.WriteLine("Vilket tal vill ha ta roten ur?");
+                        Console.WriteLine("Vilket tal vill ta roten ur?");
                         double.TryParse(Console.ReadLine(), out a);
                         Console.WriteLine(SquareRoot(a));
                         menu = false;
