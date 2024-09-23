@@ -53,6 +53,15 @@
                 return a / b;
             }
 
+        static double AreaSquare(double a, double b)
+            {
+            return a * b;
+            }
+
+        static double AreaTriangle(double a, double b)
+            {
+            return (a * b)/2;
+            }
 
             static int Addition(int a, int b)
             {
