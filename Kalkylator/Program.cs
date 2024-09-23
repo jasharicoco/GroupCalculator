@@ -14,7 +14,7 @@
             }
 
 
-        static double Division(int a, int b)
+        static double Division(double a, double b)
             {
             return a / b;
             }
