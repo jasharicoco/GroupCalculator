@@ -38,41 +38,46 @@
                 }
 
 
-            static int Multiplication(int a, int b)
-            {
+            static double Multiplication(double a, double b)
+                {
                 return a * b;
-            }
+                }
 
             static double Division(int a, int b)
             {
                 return a / b;
             }
 
-            static double AreaSquare(double a, double b)
-                {
-                return a * b;
-                }
+            static double Division(double a, double b)
+            {
+                return a / b;
+            }
+
+        static double AreaSquare(double a, double b)
+            {
+            return a * b;
+            }
 
             static double AreaTriangle(double a, double b)
                 {
                 return (a * b) / 2;
                 }
 
-            static int Addition(int a, int b)
-            {
+            static double Addition(double a, double b)
+                {
                 return a + b;
-            }
+                }
 
             static double SquareRoot(int a)
-            {
+                {
                 return Math.Sqrt(a);
-            }
+                }
 
 
-            static int Subtraction(int a, int b)
-            {
+            static double Subtraction(double a, double b)
+                {
                 return a - b;
+                }
             }
         }
     }
-}
