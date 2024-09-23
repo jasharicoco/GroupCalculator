@@ -82,11 +82,6 @@
                 return a / b;
             }
 
-            static double Division(double a, double b)
-            {
-                return a / b;
-            }
-
         static double AreaSquare(double a, double b)
             {
             return a * b;
