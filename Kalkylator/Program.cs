@@ -6,5 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
+
+        static int Multiplication(int a, int b)
+            {
+            return a * b;
+            }
     }
 }
